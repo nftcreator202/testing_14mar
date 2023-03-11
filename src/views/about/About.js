@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import "./about.css";
 import Profile from "../../assets/img/profile/profile.png";
 import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
 
 const About = () => {
   return (
