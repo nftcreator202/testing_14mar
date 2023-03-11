@@ -1,18 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
 .about {
+    padding-top: 100px;
+    margin-bottom: 50px;
     background-color: transparent;
     font-size: 1.1em;
-  }
+    height: auto;
+}
   
-  .profile {
-    max-width: 25em;
-  }
+.profile {
+max-width: 25em;
+}
 
+.font-details{
+    font-family: 'Mynerve', cursive;
+}
+
+.object-flex {
+ padding-top: 50px;
+}
   
-  .my-details {
+.my-details {
+    height: auto;
+    color: brown;
+    font-family: 'Mynerve';
+    font-size: 20px;
     background-color: rgba(255, 255, 255, 0.747);
     margin-right:-100px;
-  }
-  @media only screen and (max-width: 786px){
+}
+
+@media only screen and (max-width: 786px){
   .font-details{
     font-size: 2rem !important;
   }

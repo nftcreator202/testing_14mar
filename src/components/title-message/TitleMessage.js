@@ -15,12 +15,12 @@ const MyTitleMessage = styled.h1`
   div {
     color: ${props => props.theme.titleColor};
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
+    font-weight: 500;
     .main {
-      font-size: 50px;
+      font-size: 60px;
     }
     .sub {
-      font-size: 27px;
+      font-size: 47px;
       letter-spacing: 2px;
     }
   }
@@ -34,14 +34,15 @@ const TitleMessage = () => (
             Hi, I am
             <br />
             <span>
-              <strong>Adiba Abid👋</strong>
+              <strong>Maximo Violante👋</strong>
 
             </span>
           </div>
+          <br/>
           <div className="sub">
             <Typewriter
               options={{
-                strings: ["Web Developer", "Tech Enthusiast", "Nature Lover"],
+                strings: ["Artist", "Father", "Web3 Enthusiast"],
                 autoStart: true,
                 loop: true,
                 delay: 50
