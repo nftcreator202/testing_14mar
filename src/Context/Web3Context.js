@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { ethers, BigNumber } from "ethers";
 import contractConfig from '../config/contract-config.json';
 
@@ -32,6 +32,7 @@ export const Web3Provider = ({ children }) => {
 
 
   const getProof = async (address) => {
+    try {
          const response = await fetch(
          `https://cez8ivb5s0.execute-api.us-east-2.amazonaws.com/proof/${address}`);
          const data = await response.json();
@@ -40,6 +41,9 @@ export const Web3Provider = ({ children }) => {
            setValid(true);
          }
          setProof(data);
+         } catch (error) {
+         }
+
    };
 
   const isValid = (address) => {
@@ -142,10 +146,6 @@ export const Web3Provider = ({ children }) => {
 
   const whitelistCheckout = async () => {
     const contract = initContract();
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    const accounts = await window.ethereum.request({
-      method: "eth_requestAccounts",
-    });
     let totalCost = mintAmount * 0.02;
     let x = totalCost.toFixed(3);
     let value = x.toString();

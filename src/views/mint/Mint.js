@@ -8,7 +8,6 @@ const Mint = () => {
 
   const {
   isConnected,
-  currentAccount,
   connectWallet,
   valid,
   mint,
@@ -27,9 +26,12 @@ const Mint = () => {
         &nbsp; <a href = "https://etherscan.io/" class="links" rel="noopener noreferrer" target="_blank">EtherScan</a>
         <a href = "https://opensea.io/" class="links" rel="noopener noreferrer" target="_blank">OpenSea</a>
     </div>
-    <div class = "text">
-        MINTING SOON!
-    </div>
+
+       {totalSupply === 555 ? <div class = "text"> SOLD OUT! </div>
+                            : <div class = "text"> MINTING SOON! </div>
+                            }
+
+
     <br/>
     {isConnected && valid ? (
                 <span className="whitelisted"> You are whitelisted! </span>
@@ -39,7 +41,7 @@ const Mint = () => {
      ) : ""}
 
     <div class = "mint-div">
-               {isConnected && valid ? (
+               {isConnected && valid && (totalSupply !== 555)? (
                <button class="mint-button" onClick={mint} >Mint</button>
                   ) : ""}
     </div>
