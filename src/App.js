@@ -9,6 +9,7 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import Project from "./views/project/Project";
+import Mint from "./views/mint/Mint";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -43,6 +44,15 @@ function App() {
             </Slide>
           </Container>
         </div>
+
+       <div>
+        <Container className="container-box rounded">
+          <Slide left duration={2000}>
+            <hr />
+            <Mint/>
+          </Slide>
+        </Container>
+      </div>
       </div>
       <hr />
       <Footer />

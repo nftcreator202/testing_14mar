@@ -12,7 +12,7 @@ import "./NavBar.css";
              className="animate-navbar nav-theme justify-content-between"
              variant="dark">
                 <Navbar.Brand className="logo" href="#home">
-                    Enter the Void
+                    Enter the Void!
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
