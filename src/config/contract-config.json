@@ -7,11 +7,11 @@
     "allowlistSale": { "mintPrice": "0.02"},
     "publicSale": { "mintPrice": "0.02"}
   },
-  "contractAddress" : "",
+  "contractAddress" : "0xe0e93f2a661e31fd2d67edeaf87a9ec43a24160b",
   "contractAddresses": {
     "1337": [],
     "4": [],
-    "1": [""]
+    "1": ["0xe0e93f2a661e31fd2d67edeaf87a9ec43a24160b"]
   },
   "customErrors": {
     "WL_SALE_NOT_ACTIVE": "Whitelist mint is not live or over!",
@@ -25,7 +25,7 @@
   "gasToken": "ETH",
   "openSeaURL": "https://opensea.io/collection/",
   "twitterURL": "https://www.twitter.com/VoidViolanteNFT",
-  "etherscanURL": "https://www.etherscan.io/address/",
+  "etherscanURL": "https://www.etherscan.io/address/0xe0e93f2a661e31fd2d67edeaf87a9ec43a24160b",
   "chainIDConfig": "1",
   "chainName": "MainNet"
 }
