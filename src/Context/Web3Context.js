@@ -168,14 +168,14 @@ export const Web3Provider = ({ children }) => {
 
   const whitelistMint = async () => {
     if (isConnected) {
-     /* const ethereumChainId = "0x1";
+      const ethereumChainId = "0x1";
       let chainId = await window.ethereum.request({
         method: "eth_chainId",
       });
       if (chainId !== ethereumChainId) {
         // "Collection can only be minted on Ethereum mainnet"
         return;
-      }*/
+      }
 
       try {
         whitelistCheckout();
