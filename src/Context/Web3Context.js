@@ -25,7 +25,7 @@ export const Web3Provider = ({ children }) => {
   const [currentAccount, setCurrentAccount] = useState([]);
   const [mintAmount, setMintAmount] = useState(1);
   const isConnected = Boolean(currentAccount[0]);
-  const [saleState, setSaleState] = useState(0);
+  const [saleState, setSaleState] = useState(1);
   const [proof, setProof] = useState([]);
   const [valid, setValid] = useState(false);
   const [totalSupply, setTotalSupply] = useState(0);
@@ -60,6 +60,7 @@ export const Web3Provider = ({ children }) => {
     setTotalSupply(response.toString());
   };
 
+/*
   const getMintingStatus = async () => {
      const contract = initContract();
 
@@ -67,6 +68,7 @@ export const Web3Provider = ({ children }) => {
 
      setSaleState(response);
     };
+    */
 
   // function to connect user wallet
   const connectWallet = async () => {
@@ -223,7 +225,7 @@ export const Web3Provider = ({ children }) => {
         totalSupply,
         getSupply,
         saleState,
-        getMintingStatus,
+        //getMintingStatus,
         publicMint,
         isValid,
         proof,

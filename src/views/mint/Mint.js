@@ -28,7 +28,7 @@ const Mint = () => {
     </div>
 
        {totalSupply === 555 ? <div class = "text"> SOLD OUT! </div>
-                            : <div class = "text"> MINTING SOON! </div>
+                            : <div class = "text"> MINTING LIVE! </div>
                             }
 
 
