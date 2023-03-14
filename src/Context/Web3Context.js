@@ -60,15 +60,15 @@ export const Web3Provider = ({ children }) => {
     setTotalSupply(response.toString());
   };
 
-/*
+
   const getMintingStatus = async () => {
      const contract = initContract();
 
      let response = (await contract.getMintingState());
 
-     setSaleState(response);
+     setSaleState(1);
     };
-    */
+
 
   // function to connect user wallet
   const connectWallet = async () => {
@@ -225,7 +225,7 @@ export const Web3Provider = ({ children }) => {
         totalSupply,
         getSupply,
         saleState,
-        //getMintingStatus,
+        getMintingStatus,
         publicMint,
         isValid,
         proof,
