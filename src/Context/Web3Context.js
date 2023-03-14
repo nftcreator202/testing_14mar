@@ -62,9 +62,9 @@ export const Web3Provider = ({ children }) => {
 
 
   const getMintingStatus = async () => {
-     const contract = initContract();
+     //const contract = initContract();
 
-     let response = (await contract.getMintingState());
+     //let response = (await contract.getMintingState());
 
      setSaleState(1);
     };
