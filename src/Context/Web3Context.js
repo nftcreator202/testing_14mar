@@ -25,7 +25,7 @@ export const Web3Provider = ({ children }) => {
   const [currentAccount, setCurrentAccount] = useState([]);
   const [mintAmount, setMintAmount] = useState(1);
   const isConnected = Boolean(currentAccount[0]);
-  const [saleState, setSaleState] = useState(1);
+  const [saleState, setSaleState] = useState(2);
   const [proof, setProof] = useState([]);
   const [valid, setValid] = useState(false);
   const [totalSupply, setTotalSupply] = useState(0);
@@ -66,7 +66,7 @@ export const Web3Provider = ({ children }) => {
 
      //let response = (await contract.getMintingState());
 
-     setSaleState(1);
+     setSaleState(2);
     };
 
 
