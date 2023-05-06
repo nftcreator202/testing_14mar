@@ -10,7 +10,6 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-2"></h1>
         <Container className="object-flex">
           <Row className=" pb-5 align-items-center">
 

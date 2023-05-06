@@ -9,7 +9,6 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import Project from "./views/project/Project";
-import Mint from "./views/mint/Mint";
 import Footer from "./components/footer/Footer";
 
 function App() {
