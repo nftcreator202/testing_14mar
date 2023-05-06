@@ -15,9 +15,6 @@ const About = () => {
 
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
-                 <h1>THE REAL RULE IN LIFE </h1>
-              </Row>
-              <Row className="justify-content-center mb-2 mr-2 ">
 
                 <Image className="profile justify-content-end" alt="profile" src={Profile} />
               </Row>
