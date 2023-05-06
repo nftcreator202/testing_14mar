@@ -4,7 +4,6 @@ import NavBar from "./components/navBar/NavBar";
 import CustomCarousel from "./components/carousel/Carousal";
 import TitleMessage from "./components/title-message/TitleMessage";
 import About from "./views/about/About";
-import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
