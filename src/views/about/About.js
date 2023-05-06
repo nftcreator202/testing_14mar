@@ -24,17 +24,21 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK,
-                CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK, CRACK.......
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
+                CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL...
                 </Row>
                 </Col>
           </Row>
