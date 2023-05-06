@@ -11,12 +11,17 @@ const MyTitleMessage = styled.h1`
   strong {
     font-size: 1.25em;
   }
+  soft {
+    font-size: 17px;
+  }
   div {
     color: ${props => props.theme.titleColor};
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+
     font-weight: 500;
     .main {
-      font-size: 60px;
+      padding-left: 300px;
+      font-size: 40px;
+      font-weight:bold;
     }
     .sub {
       font-size: 47px;
@@ -30,14 +35,23 @@ const TitleMessage = () => (
       <div className="titleMessage">
         <div className="heading">
           <div className="main text-center mb-3">
-            Welcome to
-            <br />
-            <span>
-              <strong>METH</strong>
-            </span>
+            WELL
             <br/>
+            HELLO THERE,
+            <br />
+            this is
             <br/>
 
+            <span>
+              <strong>$METH</strong>
+            </span>
+            <br/>
+
+            <span> <soft>
+             &nbsp;  &nbsp; "You're An Insane, Degenerate Piece Of Filth, And You Deserve To Die" - Walter White
+            </soft></span>
+            <br/>
+            <br/>
             <a  href="http://etherscan.io">
               <button  class="connect-button">Contract</button>
             </a>

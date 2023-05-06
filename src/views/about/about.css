@@ -9,7 +9,8 @@
 }
   
 .profile {
-max-width: 25em;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .font-details{
