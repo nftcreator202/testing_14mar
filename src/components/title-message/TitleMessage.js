@@ -34,8 +34,20 @@ const TitleMessage = () => (
             <br />
             <span>
               <strong>METH</strong>
-
             </span>
+            <br/>
+            <br/>
+
+            <a  href="http://etherscan.io">
+              <button  class="connect-button">Contract</button>
+            </a>
+            <a  href="http://twitter.com/meth_coin">
+              <button  class="connect-button">Twitter</button>
+            </a>
+            <a  href="http://pinksale.finance">
+              <button  class="connect-button">Presale</button>
+            </a>
+
           </div>
           <br/>
 

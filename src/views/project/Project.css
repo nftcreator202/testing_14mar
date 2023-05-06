@@ -1,6 +1,6 @@
 .project {
   padding-top: 100px;
-  height: 600px;
+  height: 800px;
 }
 
 .image-resize{
@@ -10,6 +10,18 @@
 .card-resize{
   height: 320px;
   width: 320px;
+}
+
+
+.my-details {
+    margin-top: -50px;
+
+    height: auto;
+    color: black;
+    font-family: 'Mynerve';
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.747);
+    margin-right: 4px;
 }
 
 @media only screen and (max-width: 786px){

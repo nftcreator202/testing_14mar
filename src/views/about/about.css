@@ -30,6 +30,18 @@ max-width: 25em;
     margin-right:-100px;
 }
 
+.connect-button {
+    width: 150px !important;
+    border: 1px;
+    background: yellow;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
 @media only screen and (max-width: 786px){
   .font-details{
     font-size: 2rem !important;

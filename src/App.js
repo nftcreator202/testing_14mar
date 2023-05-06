@@ -18,12 +18,6 @@ function App() {
       <CustomCarousel />
       <TitleMessage />
       <div>
-        <Parallax
-          blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/parallex/background.webp")}
-          bgImageAlt=""
-          strength={-200}
-        >
           <div>
             <Container className="container-box rounded">
               <Fade left duration={2000}>
@@ -31,7 +25,6 @@ function App() {
               </Fade>
             </Container>
           </div>
-        </Parallax>
       </div>
       <div>
 
