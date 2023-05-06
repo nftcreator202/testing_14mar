@@ -6,57 +6,65 @@ import "./Project.css";
 
 const Project = () => {
     return (
-        <div id="project" className="project">
+        <div id="tokenomics" className="project">
                     <Container className="object-flex">
                       <Row className=" pb-5 align-items-center">
                         <Col xs={12} md={6}>
-                          <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
+                          <Row className=" align-items-left p-2 my-details rounded tex align-text-left " >
+                          <label for="file">Presale : 55% </label>
+                          <progress id="file" max="100" value="55"> 55% </progress>
+                        <br/>
 
-                          Well it's obvious why you've landed up here. Be HONEST with yourself.
-                          <br/>
-                          <br/>
+                        <label for="file">Liquidity Pool : 33%</label>
+                        <progress id="file" max="100" value="33"> 33% </progress>
 
-                          You're here hoping that your small broke-boy investment in $METH will be the next token to x100.
+                        <br/>
+                        <label for="file">Airdrop : 2%</label>
+                        <progress id="file" max="100" value="2"> 2% </progress>
 
-                          <br/><br/>
+                        <br/>
+                        <label for="file">Team : 5%</label>
+                        <progress id="file" max="100" value="5"> 5% </progress>
+                        <br/>
+                        <label for="file">Meth (marketing) expenses : 5%</label>
+                        <progress id="file" max="100" value="5"> 5% </progress>
 
-                          Well there's only one thing better than a gambler; a gambler who's also a drug addict.
-
-                          <br/><br/>
-
-                          Our motto is, gamble, do drugs and, well... lose more money.
-
-                          <br/><br/>
-
-                          You can't run your balance to 0 without investing in $METH, so hurry up.
-                            </Row>
+                         </Row>
                          </Col>
 
                         <Col xs={12} md={6}>
-                          <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
-                          PHASE 1:
-                          <ul>
-                          <li>Launch Presale</li>
-                          <li>Link early members with our dealer contacts</li>
-                          <li>Go live/launch</li>
-                          <li>Get Walter to see $METH trending on twitter</li>
-                          </ul>
+                          <Row className=" align-items-start p-2 rounded tex align-text-center " >
+                          <div className=" my-details">
+                          Supply:
+                          <br/>
+                          The total unlocked supply is 89B $METH.
 
-                          PHASE 2:
-                          <ul>
-                          <li>Real Marketing Push</li>
-                          <li>Get listed on CoinMarketcap and CoinGecko</li>
-                          <li>Reach 2,000 + holders</li>
-                          <li>Go buy crystal with your stupid, big profits</li>
-                          </ul>
+                           <br/><br/>
 
-                          PHASE 3:
-                          <ul>
-                          <li>Reach 10,000 + holders</li>
-                          <li>Get listed on CEXs</li>
-                          <li>Huge Giveaways</li>
-                          <li>Ride it all the way to valhalla, I mean the caravan (crystal was talking)...</li>
-                          </ul>
+                           Community:
+                           <br/>
+                           The community will purchase 55% of the total supply during the presale.
+                           <br/>
+                           To help avoid unfair token distribution we have capped
+                            <br/>
+                            the contribution amount at 0.5 Ξ per address
+
+
+                            <br/><br/>
+                           Presale:
+                           <br/>
+                           The softcap will be 10 Ξ, the hardcap will be 30 Ξ
+                             <br/><br/>
+
+
+                            Presale Price:
+                            <br/>
+                            1 ETH -> 489,500,000 METH
+                            <br/>
+                            Min buy 0.05 Ξ
+                            <br/>
+                            Max Buy 0.5 Ξ
+                          </div>
                             </Row>
                          </Col>
 

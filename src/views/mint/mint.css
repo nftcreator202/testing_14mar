@@ -1,89 +1,24 @@
 .mint {
   padding-top: 100px;
-  height: 600px;
+  align:center;
+  height: 800px;
 }
 
-.top-div {
-    margin-left: 700px;
+.details {
+    margin-top: -50px;
+    height: auto;
+    color: black;
+    font-family: 'Mynerve';
+    font-size: 22px;
+    flex-flow: wrap;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.747);
+    margin-right: 4px;
 }
-
-.links {
-    padding: 10px;
-}
-
-.text {
-     margin-top: 75px;
-     width: 100%;
-     z-index: 1;
-     text-align: center;
-     font-size: 150px;
-}
-
-.mint-button {
-    border: 1px;
-    background: yellow;
-    border-radius: 5px;
-    text-align: center;
-    width: 100px;
-    height: 40px;
-    font-size: 18px;
-    font-weight: bold;
-    position: absolute;
-    margin: 0;
-}
-
-.mint-div {
-    margin-right: 400px;
-    margin-left: 500px;
-    width: 100px;
-    margin-top: 40px;
-}
-
-.whitelisted {
-  padding-left: 42%;
-  color: green;
-  font-size: 20px;
-}
-
-.notwhitelisted {
-  padding-left: 40%;
-  color: red;
-  font-size: 20px;
-}
-
 @media only screen and (max-width: 786px){
     .container-box{
        display: contents;
     }
 
-    .top-div {
-        margin-left: 50%;
-    }
-
-    .text {
-         margin-top: 35px;
-         width: 100%;
-         font-size: 50px;
-    }
-    .connect-button {
-        margin-left: 10%;
-        width: 130px !important;
-        font-size: 14px;
-    }
-    .mint-div {
-        margin-right: 100px;
-        margin-left: 120px;
-        margin-top: 40px;
-    }
-
-    .whitelisted {
-      padding-left: 25%;
-      font-size: 20px;
-    }
-
-    .notwhitelisted {
-      padding-left: 20%;
-      font-size: 20px;
-    }
 }
 

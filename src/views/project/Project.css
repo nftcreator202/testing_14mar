@@ -12,14 +12,22 @@
   width: 320px;
 }
 
+.givegap {
+  padding-left: 100px;
+}
+
+.float-right {
+    float: right!important
+}
 
 .my-details {
     margin-top: -50px;
-
     height: auto;
     color: black;
     font-family: 'Mynerve';
     font-size: 22px;
+    flex-flow: wrap;
+    flex-direction: column;
     background-color: rgba(255, 255, 255, 0.747);
     margin-right: 4px;
 }

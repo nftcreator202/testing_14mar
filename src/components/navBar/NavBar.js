@@ -19,8 +19,8 @@ import "./NavBar.css";
                     <Nav className="ml-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#project">Road map</Nav.Link>
-                        <Nav.Link href="#mint">Tokenomics</Nav.Link>
+                        <Nav.Link href="#tokenomics">Tokenomics</Nav.Link>
+                        <Nav.Link href="#map">Road map</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -4,11 +4,13 @@ import NavBar from "./components/navBar/NavBar";
 import CustomCarousel from "./components/carousel/Carousal";
 import TitleMessage from "./components/title-message/TitleMessage";
 import About from "./views/about/About";
+import Mint from "./views/mint/Mint";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import Project from "./views/project/Project";
 import Footer from "./components/footer/Footer";
+
 
 function App() {
   return (
@@ -35,7 +37,14 @@ function App() {
             </Slide>
           </Container>
         </div>
-
+        <div>
+          <Container className="container-box rounded">
+            <Slide left duration={2000}>
+              <hr />
+              <Mint />
+            </Slide>
+          </Container>
+        </div>
        <div>
       </div>
       </div>
