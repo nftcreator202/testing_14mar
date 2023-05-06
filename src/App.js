@@ -46,12 +46,6 @@ function App() {
         </div>
 
        <div>
-        <Container className="container-box rounded">
-          <Slide left duration={2000}>
-            <hr />
-            <Mint/>
-          </Slide>
-        </Container>
       </div>
       </div>
       <hr />
