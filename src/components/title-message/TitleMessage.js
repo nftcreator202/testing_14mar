@@ -6,7 +6,7 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: -225px;
   text-align: center;
   strong {
     font-size: 1.25em;
@@ -27,6 +27,30 @@ const MyTitleMessage = styled.h1`
       font-size: 47px;
       letter-spacing: 2px;
     }
+
+    .links {
+        margin-top:0px;
+    }
+  }
+  @media only screen and (max-width: 786px){
+      strong {
+        font-size: 1em;
+      }
+      soft {
+        font-size: 7px;
+      }
+      div {
+        font-weight: 200;
+        .main {
+          padding-left: 150px;
+          font-size: 15px;
+        }
+        .links {
+          margin-top: 50px;
+        }
+
+      }
+
   }
 `;
 
@@ -52,16 +76,18 @@ const TitleMessage = () => (
             </soft></span>
             <br/>
             <br/>
+            <div className="links">
             <a  href="http://etherscan.io">
               <button  class="connect-button">Contract</button>
             </a>
+
             <a  href="http://twitter.com/meth_coin">
               <button  class="connect-button">Twitter</button>
             </a>
             <a  href="http://pinksale.finance">
               <button  class="connect-button">Presale</button>
             </a>
-
+            </div>
           </div>
           <br/>
 

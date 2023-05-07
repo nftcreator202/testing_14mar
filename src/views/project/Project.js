@@ -10,7 +10,7 @@ const Project = () => {
                     <Container className="object-flex">
                       <Row className=" pb-5 align-items-center">
                         <Col xs={12} md={6}>
-                          <Row className=" align-items-left p-2 my-details rounded tex align-text-left " >
+                          <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
                           <label for="file">Presale : 55% </label>
                           <progress id="file" max="100" value="55"> 55% </progress>
                         <br/>
@@ -32,7 +32,7 @@ const Project = () => {
                          </Row>
                          </Col>
 
-                        <Col xs={12} md={6}>
+                        <Col xs={12} md={6} className="below">
                           <Row className=" align-items-start p-2 rounded tex align-text-center " >
                           <div className=" my-details">
                           Supply:

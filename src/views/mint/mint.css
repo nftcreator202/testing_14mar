@@ -19,6 +19,9 @@
     .container-box{
        display: contents;
     }
-
+    .mint {
+    padding-top:10px;
+      height: 900px;
+    }
 }
 

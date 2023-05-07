@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 
 .about {
-    padding-top: 200px;
+    padding-top: 80px;
     margin-bottom: 50px;
     background-color: transparent;
     font-size: 1.1em;
@@ -42,15 +42,36 @@
     font-weight: bold;
     margin-left: 20px;
 }
+.below {
+.padding-top:0px;
+}
 
 @media only screen and (max-width: 786px){
   .font-details{
     font-size: 2rem !important;
   }
-  .my-details{
-    margin-right: 0;
+  .about {
+      padding-top: 50px;
+      margin-bottom: 0px;
+  }
+
+  .below {
+
+  padding-top:100px;
+  }
+
+  .object-flex {
+   padding-top: -100px;
   }
   .profile{
-    max-width: 15em;
+    max-width: 280px;
+    max-height: 300px;
+
   }
+  .connect-button {
+       width: 100px !important;
+       height: 30px;
+       font-size: 14px;
+       margin-left: 20px;
+   }
 }

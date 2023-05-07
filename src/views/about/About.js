@@ -18,7 +18,7 @@ const About = () => {
                 <Image className="profile justify-content-end" alt="profile" src={Profile} />
               </Row>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="below">
               <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
                 CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,
                 CRYSTAL, CRYSTAL, CRYSTAL, CRYSTAL,

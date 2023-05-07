@@ -3,21 +3,8 @@
   height: 800px;
 }
 
-.image-resize{
-  height: 320px;
-  width: 100%;
-}
-.card-resize{
-  height: 320px;
-  width: 320px;
-}
-
 .givegap {
   padding-left: 100px;
-}
-
-.float-right {
-    float: right!important
 }
 
 .my-details {
@@ -34,7 +21,7 @@
 
 @media only screen and (max-width: 786px){
     .project {
-      height: 1200px;
+      height: 1400px;
     }
     .card-deck{
         flex-direction: row;
