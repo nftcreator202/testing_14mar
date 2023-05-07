@@ -24,7 +24,7 @@ const Project = () => {
                            <br/>
                            To help avoid unfair token distribution we have capped
                             <br/>
-                            the contribution amount at 0.5 Ξ per address
+                            the contribution amount at 0.25 Ξ per address
 
 
                             <br/><br/>
@@ -40,7 +40,7 @@ const Project = () => {
                             <br/>
                             Min Buy 0.05 Ξ
                             <br/>
-                            Max Buy 0.5 Ξ
+                            Max Buy 0.25 Ξ
                           </div>
                             </Row>
                          </Col>
