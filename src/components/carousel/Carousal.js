@@ -7,7 +7,6 @@ import Walter from "../../assets/img/profile/walter.png";
 const CustomCarousel = () => {
     return (
         <div id="home">
-               hello
             <Carousel controls={false} indicators interval={2500} pause={false}>
                 <Carousel.Item>
                     <img className="d-block w-50 custom-img " src={Walter} alt="First slide"/>

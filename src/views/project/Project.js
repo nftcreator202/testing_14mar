@@ -10,34 +10,11 @@ const Project = () => {
                     <Container className="object-flex">
                       <Row className=" pb-5 align-items-center">
                         <Col xs={12} md={6}>
-                          <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
-                          <label for="file">Presale : 55% </label>
-                          <progress id="file" max="100" value="55"> 55% </progress>
-                        <br/>
-
-                        <label for="file">Liquidity Pool : 33%</label>
-                        <progress id="file" max="100" value="33"> 33% </progress>
-
-                        <br/>
-                        <label for="file">Airdrop : 2%</label>
-                        <progress id="file" max="100" value="2"> 2% </progress>
-
-                        <br/>
-                        <label for="file">Team : 5%</label>
-                        <progress id="file" max="100" value="5"> 5% </progress>
-                        <br/>
-                        <label for="file">Meth (marketing) expenses : 5%</label>
-                        <progress id="file" max="100" value="5"> 5% </progress>
-
-                         </Row>
-                         </Col>
-
-                        <Col xs={12} md={6} className="below">
                           <Row className=" align-items-start p-2 rounded tex align-text-center " >
                           <div className=" my-details">
                           Supply:
                           <br/>
-                          The total unlocked supply is 89B $METH.
+                          The total unlocked supply is 30B $METH.
 
                            <br/><br/>
 
@@ -59,15 +36,37 @@ const Project = () => {
 
                             Presale Price:
                             <br/>
-                            1 ETH -> 489,500,000 METH
+                            1 ETH -> 550,000,000 $METH
                             <br/>
-                            Min buy 0.05 Ξ
+                            Min Buy 0.05 Ξ
                             <br/>
                             Max Buy 0.5 Ξ
                           </div>
                             </Row>
                          </Col>
 
+                        <Col xs={12} md={6}  className="below">
+                          <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
+                          <label for="file">Presale : 55% </label>
+                          <progress id="file" max="100" value="55"> 55% </progress>
+                        <br/>
+
+                        <label for="file">Liquidity Pool : 33%</label>
+                        <progress id="file" max="100" value="33"> 33% </progress>
+
+                        <br/>
+                        <label for="file">Airdrop : 2%</label>
+                        <progress id="file" max="100" value="2"> 2% </progress>
+
+                        <br/>
+                        <label for="file">Team : 5%</label>
+                        <progress id="file" max="100" value="5"> 5% </progress>
+                        <br/>
+                        <label for="file">Meth (marketing) expenses : 5%</label>
+                        <progress id="file" max="100" value="5"> 5% </progress>
+
+                         </Row>
+                         </Col>
                       </Row>
                     </Container>
                 </div>

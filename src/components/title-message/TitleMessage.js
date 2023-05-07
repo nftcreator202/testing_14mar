@@ -29,7 +29,7 @@ const MyTitleMessage = styled.h1`
     }
 
     .links {
-        margin-top:0px;
+        margin-top:100px;
     }
   }
   @media only screen and (max-width: 786px){
@@ -77,14 +77,14 @@ const TitleMessage = () => (
             <br/>
             <br/>
             <div className="links">
-            <a  href="http://etherscan.io">
+            <a  href="#">
               <button  class="connect-button">Contract</button>
             </a>
 
-            <a  href="http://twitter.com/meth_coin">
+            <a  href="http://twitter.com/meth_coin" target="_blank">
               <button  class="connect-button">Twitter</button>
             </a>
-            <a  href="http://pinksale.finance">
+            <a  href="#">
               <button  class="connect-button">Presale</button>
             </a>
             </div>
