@@ -77,14 +77,14 @@ const TitleMessage = () => (
             <br/>
             <br/>
             <div className="links">
-            <a  href="#">
+            <a  href="http://etherscan.io/" target="_blank" rel="noopener noreferrer" >
               <button  class="connect-button">Contract</button>
             </a>
 
-            <a  href="http://twitter.com/meth_coin" target="_blank">
+            <a  href="http://twitter.com/meth_coin" target="_blank" rel="noopener noreferrer" >
               <button  class="connect-button">Twitter</button>
             </a>
-            <a  href="#">
+            <a  href="https://www.pinksale.finance/" target="_blank" rel="noopener noreferrer" >
               <button  class="connect-button">Presale</button>
             </a>
             </div>
