@@ -20,7 +20,7 @@ const Project = () => {
 
                            Community:
                            <br/>
-                           The community will purchase 55% of the total supply during the presale.
+                           The community will purchase 60% of the total supply during the presale.
                            <br/>
                            To help avoid unfair token distribution we have capped
                             <br/>
@@ -36,7 +36,7 @@ const Project = () => {
 
                             Presale Price:
                             <br/>
-                            1 ETH -> 550,000,000 $METH
+                            1 ETH -> 600,000,000 $METH
                             <br/>
                             Min Buy 0.05 Ξ
                             <br/>
@@ -47,12 +47,12 @@ const Project = () => {
 
                         <Col xs={12} md={6}  className="below">
                           <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
-                          <label for="file">Presale : 55% </label>
-                          <progress id="file" max="100" value="55"> 55% </progress>
+                          <label for="file">Presale : 60% </label>
+                          <progress id="file" max="100" value="60"> 60% </progress>
                         <br/>
 
-                        <label for="file">Liquidity Pool : 33%</label>
-                        <progress id="file" max="100" value="33"> 33% </progress>
+                        <label for="file">Liquidity Pool : 28%</label>
+                        <progress id="file" max="100" value="28"> 28% </progress>
 
                         <br/>
                         <label for="file">Airdrop : 2%</label>
